@@ -1,22 +1,19 @@
 // Global Variables
 int aWidth, aHeight;
 Boolean windowActive = false;
+int x0, x1, x2, y0, y1, y2, y3, yTop, xTop0, xTop1, xTop2;
+int x0c, x1c, x2c, y0c, y1c, y2c, y3c;
+Boolean circleOver1 = false, circleOver2 = false, circleOver3 = false, circleOver4 = false, circleOver5 = false, circleOver6 = false, circleOver7 = false, circleOver8 = false, circleOver9 = false, circleOver10 = false, circleOver11 = false, circleOver12 = false;
+color circleHover, circleColor;
+int wCircle, wSquare, hSquare;
+float smallDimension, largeDimension;
+Boolean portrait = false, landscape = false;
 //
 void setup() {
-  size(500, 800);
-  aWidth = width;
-  aHeight = height;
-  println("Display Width", displayWidth, "Display Height", displayHeight);
-  println("App Width", aWidth, "App Height", aHeight);
-  //
-  //Problem: Display < CANVAS
-  if (aWidth>displayWidth) aWidth=displayWidth;
-  if (aHeight>displayHeight) aHeight=displayHeight;
-  println(aWidth, aHeight);
-  aWidth = width;
-  aHeight = height;
-  println("Display Width", displayWidth, "Display Height", displayHeight);
-  //
+  size(500, 700);
+  population();
+  displayAlgorithm();
+  // debug();
 } // End of setup
 //
 void draw() {
