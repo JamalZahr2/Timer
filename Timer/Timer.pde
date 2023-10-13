@@ -12,9 +12,10 @@ int startRX, startRY, startRW, startRH;
 //
 void setup() {
   size(500, 700);
+  background(255); // Perhaps an Image can be loaded into the program as background
   population();
   displayAlgorithm();
-  // debug();
+  // debug(); // Extra Display Details
 } // End of setup
 //
 void draw() {

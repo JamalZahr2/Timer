@@ -33,6 +33,7 @@ void displayAlgorithm() {
     largeDimension = aHeight;
     smallDimension = aWidth;
   }
+  println("\t\t Click Program to Begin!");
 } // End displayAlgorithm
 //
 // End Sub-Program
