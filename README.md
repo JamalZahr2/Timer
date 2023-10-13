@@ -1,2 +1,2 @@
 # Timer
-ChatGPT wrote thsi
+ChatGPT didn't write this surprisingly.
