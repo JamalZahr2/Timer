@@ -4,6 +4,10 @@ void population() {
   wSquare = aWidth * 1/4;
   hSquare = wSquare;
   wCircle = wSquare * 15/16;
+  // startRX = ; //
+  // startRY = ; // Note for all variables here:
+  // startRW = ; // Finish Startup button variables
+  // startRH = ; // 
   /*
   xTop0 = wSquare * 1/2;
   xTop1 = wSquare * 3/2;

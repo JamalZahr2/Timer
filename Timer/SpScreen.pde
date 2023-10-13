@@ -1,3 +1,4 @@
 void SpScreen() {
-  background(0);
+  background(#FFFFFF);
+  circleCode();
 } // End of SpScreen
