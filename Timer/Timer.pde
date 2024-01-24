@@ -9,6 +9,7 @@ int wCircle, wSquare, hSquare;
 float smallDimension, largeDimension;
 Boolean portrait = false, landscape = false;
 int startRX, startRY, startRW, startRH;
+PImage ;
 //
 void setup() {
   size(500, 700);
@@ -19,6 +20,7 @@ void setup() {
 } // End of setup
 //
 void draw() {
+  image();
   if ( mousePressed && SpScreenOn == false ) { windowActive = true; } // Note: Fix startup button later
   if ( windowActive == true ) {
     SpScreenOn = true;
